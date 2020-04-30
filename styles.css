@@ -1,0 +1,156 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    /*background-color: #000;*/
+    color: #000;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+nav {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    min-height: 7vh;
+    position: fixed;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    letter-spacing: 1px;
+}
+
+.logo {
+    letter-spacing: 1px;
+    font-size: 20px;
+}
+
+.social {
+    display: flex;
+    justify-content: space-around;
+    width: 20%;
+    list-style: none;
+}
+
+.primary-content {
+    height: 900px;
+    padding-top: 350px;
+    background: linear-gradient(0deg, #000, transparent 10%),
+            url("Images/IMG_2446.jpg") no-repeat center;
+    background-size: cover;
+    text-align: center;
+    justify-content: center;
+}
+
+.content {
+    padding-top: 200px;
+    color: white;
+    text-align: center;
+    margin: auto;
+    border-radius: 20px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 50px;
+    border-top: 2px solid white;
+}
+
+.youtube {
+    height: 300px;
+    width: 400px;
+    justify-content: center;
+    display: flex;
+    /*background-color: tomato;*/
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 100px;
+    margin: auto;
+}
+
+.wrapper {
+    width: 100%;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin: auto;
+    height: 1200px;
+    background-color: black;
+    justify-content: center;
+    padding-top: 38px;
+    padding-bottom: 50px;
+}
+
+.name {
+    color: white;
+    font-size: 120px;
+    letter-spacing: 2px;
+    justify-content: center;
+    text-align: center;
+}
+
+.about {
+    width: 25%;
+    height: 250px;
+    padding-top: 90px;
+    text-align: center;
+    background-color: white;
+    background: url("Images/DSC_4849.jpg") no-repeat center;
+    background-size: cover;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+.contact {
+    display: inline-block;
+    width: 25%;
+    height: 250px;
+    padding-top: 90px;
+    text-align: center;
+    background-color: white;
+    background: url("Images/IMG_1663.jpg") no-repeat center;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.white {
+    color: white;
+    font-size: 50px;
+    text-decoration: none;
+}
+
+.second-nav {
+    margin: auto;
+    justify-content: center;
+    width: 100%;
+    padding-top: 150px;
+    display: flex;
+    align-items: center;
+}
+
+.second-nav a {
+    text-decoration: none;
+}
+
+.divider {
+    background-color: white;
+    width: 15px;
+}
+
+.spotify {
+    background-color: black;
+    color: white;
+    display: flex;
+    width: 50%;
+    padding-top: 110px;
+    margin: auto;
+    justify-content: center;
+}
+
+.h {
+    color: white;
+}

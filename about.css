@@ -1,0 +1,157 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    /*background-color: #000;*/
+    color: #000;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+nav {
+    width: 100%;
+    position: fixed;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    min-height: 7vh;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    letter-spacing: 1px;
+}
+
+.logo {
+    letter-spacing: 1px;
+    font-size: 20px;
+}
+
+.social {
+    display: flex;
+    justify-content: space-around;
+    width: 20%;
+    list-style: none;
+}
+
+.primary-content {
+    height: 700px;
+    padding-top: 300px;
+    background: linear-gradient(0deg, #000, transparent 10%),
+            url("Images/IMG_1651.jpg") no-repeat center;
+    background-size: cover;
+    text-align: center;
+    justify-content: center;
+}
+
+.name {
+    color: white;
+    font-size: 120px;
+    letter-spacing: 2px;
+    justify-content: center;
+    text-align: center;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 50px;
+    border-top: 2px solid white;
+}
+
+.description {
+    color: white;
+    justify-content: center;
+    width: 50%;
+    margin: auto;
+    font-size: 22px;
+    line-height: 40px;
+}
+
+.h {
+    color: white;
+}
+
+.wrapper {
+    width: 100%;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin: auto;
+    height: 1100px;
+    background-color: black;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.first {
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+
+.second {
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+.third {
+    padding-top: 20px;
+}
+
+.home {
+    width: 25%;
+    height: 250px;
+    padding-top: 90px;
+    text-align: center;
+    background: url("Images/IMG_2446.jpg") no-repeat center;
+    background-size: cover;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+.contact {
+    display: inline-block;
+    width: 25%;
+    height: 250px;
+    padding-top: 90px;
+    text-align: center;
+    background: url("Images/IMG_1663.jpg") no-repeat center;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.second-nav {
+    margin: auto;
+    justify-content: center;
+    width: 100%;
+    padding-top: 90px;
+    display: flex;
+    align-items: center;
+}
+
+.second-nav a {
+    text-decoration: none;
+}
+
+.divider {
+    background-color: white;
+    width: 15px;
+}
+
+.spotify {
+    background-color: black;
+    color: white;
+    display: flex;
+    width: 50%;
+    padding-top: 110px;
+    margin: auto;
+    justify-content: center;
+}
+
+.white {
+    color: white;
+    font-size: 50px;
+    text-decoration: none;
+}
